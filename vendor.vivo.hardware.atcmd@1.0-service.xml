@@ -1,0 +1,17 @@
+<!-- Copyright (c) 2019 vivo.
+All Rights Reserved.
+Confidential and Proprietary - Engineering Mode Team!
+-->
+<manifest version="1.0" type="device">
+    <!-- vivo liupeng add for atcmd HAL service begin -->
+    <hal format="hidl">
+        <name>vendor.vivo.hardware.atcmd</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAtcmdFramework</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <!-- vivo liupeng add for atcmd HAL service end -->
+</manifest>
